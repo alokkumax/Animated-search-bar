@@ -39,6 +39,7 @@ class _AnimatedSearchBarState extends State<searchBar> {
               type: MaterialType.transparency,
               child: InkWell(
                 borderRadius: BorderRadius.only(
+                  //here you can costomize the length you want the search bar to expand.
                   topLeft: Radius.circular(_folded ? 32 : 0),
                   topRight: Radius.circular(32),
                   bottomLeft: Radius.circular(_folded ? 32 : 0),
@@ -53,6 +54,7 @@ class _AnimatedSearchBarState extends State<searchBar> {
                 ),
                 onTap: () {
                   setState(() {
+                    //
                     _folded = !_folded;
                   });
                 },
