@@ -54,7 +54,8 @@ class _AnimatedSearchBarState extends State<searchBar> {
                 ),
                 onTap: () {
                   setState(() {
-                    //
+                    //here i am only keeping the open and close method,
+                    //you can change
                     _folded = !_folded;
                   });
                 },
