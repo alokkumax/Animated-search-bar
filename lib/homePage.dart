@@ -21,6 +21,7 @@ class _HomePageState extends State<HomePage> {
       backgroundColor: Colors.white,
 
       floatingActionButton: searchBar(),
+      //calling the searchBar()
     );
   }
 }
