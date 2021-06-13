@@ -1,6 +1,6 @@
 # animated_search_bar
 
-Flutter Animations,
+Flutter Animations,,
 Minimal UI animations.
 
 I placed this animation on a FLOATING action widget.
